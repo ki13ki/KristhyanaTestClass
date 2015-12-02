@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#211409"
+    tools:context="com.kristhyana.kristhyanaclasstest.FragmentB">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Color"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

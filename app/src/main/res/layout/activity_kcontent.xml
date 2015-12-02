@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.kristhyana.kristhyanaclasstest.KContent">
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        android:paddingBottom="18dp"
+        android:layout_gravity="center">
+
+
+    <ImageView
+        android:layout_width="146dp"
+        android:layout_height="194dp"
+        android:id="@+id/frozenIm"
+        android:scaleType="fitXY"
+        android:src="@drawable/frozen" />
+    <ImageView
+        android:layout_width="146dp"
+        android:layout_height="194dp"
+        android:id="@+id/greenIm"
+        android:scaleType="fitXY"
+        android:layout_gravity="right"
+        android:src="@drawable/green" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+        <ImageView
+            android:layout_width="146dp"
+            android:layout_height="194dp"
+            android:id="@+id/pulpIm"
+            android:scaleType="fitXY"
+            android:src="@drawable/pulp" />
+        <ImageView
+            android:layout_width="146dp"
+            android:layout_height="194dp"
+            android:scaleType="fitXY"
+            android:id="@+id/skyFallIm"
+            android:layout_gravity="right"
+            android:src="@drawable/skyfall" />
+    </LinearLayout>
+</LinearLayout>

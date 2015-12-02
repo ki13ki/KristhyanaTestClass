@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kristhyana.kristhyanaclasstest" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Webview"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KContent"
+            android:label="@string/title_activity_kcontent" >
+        </activity>
+        <activity
+            android:name=".Media"
+            android:label="@string/title_activity_media" >
+        </activity>
+        <activity
+            android:name=".Seek"
+            android:label="@string/title_activity_seek" >
+        </activity>
+        <activity
+            android:name=".Implicit"
+            android:label="@string/title_activity_implicit" >
+        </activity>
+        <activity
+            android:name=".Gallery"
+            android:label="@string/title_activity_gallery" >
+        </activity>
+    </application>
+
+</manifest>

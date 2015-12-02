@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kristhyana.kristhyanaclasstest.Gallery">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frozen"
+            android:id="@+id/frozenbtn"
+            android:onClick="frozenImage"
+            android:layout_weight=".5"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green Lantern"
+            android:id="@+id/greenbtn"
+            android:onClick="greenImage"
+            android:layout_marginLeft="124dp"
+            android:layout_weight=".5"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="prev"
+                android:id="@+id/prevbtn"
+                android:onClick="prevImage"
+                android:layout_gravity="center_horizontal"
+                />
+
+        <ImageView
+            android:layout_width="229dp"
+            android:layout_height="248dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            android:src="@drawable/frozen" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next"
+            android:id="@+id/nextbtn"
+            android:onClick="nextImage"
+            android:layout_weight=".5"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pulp Fiction"
+            android:id="@+id/pulpbtn"
+            android:layout_weight=".5"
+            android:onClick="pulpImage"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SkyFall"
+            android:id="@+id/skybtn"
+            android:layout_marginLeft="124dp"
+            android:onClick="skyImage"
+            android:layout_weight=".5"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Kristhyana Class Test</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="back">(--</string>
+    <string name="go">go</string>
+    <string name="previous">--)</string>
+    <string name="gallery">Gallery</string>
+    <string name="seek">Seek</string>
+    <string name="Implicit">Implicit</string>
+    <string name="media">Media</string>
+    <string name="context">Context</string>
+    <string name="Toast">Toast</string>
+    <string name="title_activity_toast">Kristhy Toast</string>
+    <string name="title_activity_kcontent">Kristhy Content</string>
+    <string name="title_activity_media">Kristhy Media</string>
+    <string name="title_activity_seek">Kristhy Seek</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_implicit">Kristhy Implicit</string>
+    <string name="title_activity_gallery">kristhy Gallery</string>
+</resources>
